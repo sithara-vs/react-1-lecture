@@ -1,5 +1,30 @@
+
+// import './App.css';
+// import ClassComponent from './components/ClassComponent'
+// import FunctionalComponent from './components/FunctionalComponent'
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <h1> This is my App.JS</h1>
+//       <p> Whatever you want</p>
+//       <ClassComponent />
+//       <ClassComponent />
+//       <ClassComponent />
+
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+
 import logo from './logo.svg';
 import './App.css';
+import ClassComponent from './components/ClassComponent'
+import Directory from './components/Directory'
 
 function App() {
   return (
@@ -18,8 +43,14 @@ function App() {
           Learn React
         </a>
       </header>
+      <h1>This is my App.js</h1>
+      <p>Whatever you want can go here</p>
+      <Directory />
+
+      {/* <ClassComponent />
+      <ClassComponent />
+      <ClassComponent />
+      <ClassComponent /> */}
     </div>
   );
 }
-
-export default App;
